@@ -3,6 +3,8 @@ frontend:
   phases:
     build:
       commands:
+        # サイト本体は kajitoru-go-live/ 配下
+        - cd kajitoru-go-live
         # 公開するHTMLだけを dist にまとめる（診断ガイド等の .txt は公開しない）
         - mkdir -p dist/en/thanks dist/thanks
         - cp index.html global.html thanks.html thanks-en.html dist/
@@ -11,6 +13,6 @@ frontend:
         - cp thanks.html dist/thanks/index.html
         - cp thanks-en.html dist/en/thanks/index.html
   artifacts:
-    baseDirectory: dist
+    baseDirectory: kajitoru-go-live/dist
     files:
       - '**/*'
