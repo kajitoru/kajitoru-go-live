@@ -1,0 +1,16 @@
+version: 1
+frontend:
+  phases:
+    build:
+      commands:
+        # 公開するHTMLだけを dist にまとめる（診断ガイド等の .txt は公開しない）
+        - mkdir -p dist/en/thanks dist/thanks
+        - cp index.html global.html thanks.html thanks-en.html dist/
+        # vercel.json の rewrites 相当: /en, /thanks, /en/thanks
+        - cp global.html dist/en/index.html
+        - cp thanks.html dist/thanks/index.html
+        - cp thanks-en.html dist/en/thanks/index.html
+  artifacts:
+    baseDirectory: dist
+    files:
+      - '**/*'
