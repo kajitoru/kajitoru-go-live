@@ -1,0 +1,71 @@
+KAJITORU AI & Digital Quick Assessment
+簡易診断レポート
+
+会社名：
+実施日：
+参加者：
+
+1. Executive Summary
+現在地：
+最も重要な論点：
+3か月以内に動くべきテーマ：
+
+2. Current State Score
+AI Readiness：__/5
+DX Execution：__/5
+Cloud Foundation：__/5
+Data Utilization：__/5
+Security & Governance：__/5
+Delivery Capability：__/5
+
+3. Priority Issues
+Priority 1：
+現状：
+影響：
+
+Priority 2：
+現状：
+影響：
+
+Priority 3：
+現状：
+影響：
+
+4. Quick Wins
+Quick Win 1：
+期待効果：
+想定期間：
+
+Quick Win 2：
+期待効果：
+想定期間：
+
+Quick Win 3：
+期待効果：
+想定期間：
+
+5. Recommended Next Action
+推奨テーマ：
+対象範囲：
+想定期間：
+最初に確認するKPI：
+
+該当サービス
+[ ] AI Strategy / PoC
+[ ] AI Implementation
+[ ] AI-driven Development
+[ ] DX Transformation
+[ ] Digital PMO
+[ ] Cloud Modernization
+[ ] Data Platform / Microsoft Fabric
+[ ] Security & Governance
+[ ] Internalization Support
+
+6. What Not To Do Yet
+今は着手しないこと：
+理由：
+
+KAJITORU
+AI / DX / Cloud & Data
+Strategy to Implementation
+Choose a bigger tomorrow.

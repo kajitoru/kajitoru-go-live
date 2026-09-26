@@ -1,0 +1,18 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {"key": "X-Content-Type-Options", "value": "nosniff"},
+        {"key": "Referrer-Policy", "value": "strict-origin-when-cross-origin"}
+      ]
+    }
+  ],
+  "rewrites": [
+    {"source": "/en", "destination": "/global.html"},
+    {"source": "/thanks", "destination": "/thanks.html"},
+    {"source": "/en/thanks", "destination": "/thanks-en.html"}
+  ]
+}
